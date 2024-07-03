@@ -1,6 +1,8 @@
 # LeetCode
 
 This repository contains my solutions to LeetCode problems.
+Problem Set Link: https://leetcode.com/studyplan/top-sql-50/
+
 
 Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 
