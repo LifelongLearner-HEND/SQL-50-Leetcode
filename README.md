@@ -1,7 +1,8 @@
 # LeetCode
 
-Sharing my solutions for SQL Leetcide problem set.
+Sharing my solutions for SQL Leetcode problem set.
 Problem Set Link: https://leetcode.com/studyplan/top-sql-50/
+
 
 
 
