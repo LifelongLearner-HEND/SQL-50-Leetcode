@@ -1,0 +1,14 @@
+/* Write your T-SQL query statement below */
+DECLARE @RowCount INT;
+
+SELECT @RowCount = COUNT(*)
+FROM Product;
+
+WITH customers AS
+(SELECT customer_id, COUNT(DISTINCT product_key) AS number_of_products
+FROM Customer
+GROUP BY customer_id
+HAVING COUNT(DISTINCT product_key) = @RowCount
+)
+SELECT customer_id
+FROM customers
